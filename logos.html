@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Expandable Cards</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+    .card.hover-expand {
+            max-height: 150px; 
+            overflow: hidden;
+            transition: max-height 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        .card.hover-expand:hover {
+            max-height: 1000px; 
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-body {
+            opacity: 1;
+            padding-top: 10px;
+        }
+
+        .logo-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%; 
+            margin: 10px auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card hover-expand text-center">
+                    <img src="4.png" class="card-img-top logo-img" alt="Logo 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Title 1</h5>
+                        <p class="card-text">This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card hover-expand text-center">
+                    <img src="3.png" class="card-img-top logo-img" alt="Logo 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Title 2</h5>
+                        <p class="card-text">This is the expanded content for Logo 2, revealed on hover.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card hover-expand text-center">
+                    <img src="1.png" class="card-img-top logo-img" alt="Logo 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Title 1</h5>
+                        <p class="card-text">This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card hover-expand text-center">
+                    <img src="2.png" class="card-img-top logo-img" alt="Logo 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Title 1</h5>
+                        <p class="card-text">This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card hover-expand text-center">
+                    <img src="3.png" class="card-img-top logo-img" alt="Logo 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Title 1</h5>
+                        <p class="card-text">This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card hover-expand text-center">
+                    <img src="4.png" class="card-img-top logo-img" alt="Logo 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Title 1</h5>
+                        <p class="card-text">This is the expanded content for Logo 1, revealed on hover. Additional content is shown here as the card expands.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
